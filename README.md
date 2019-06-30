@@ -1,30 +1,11 @@
-# Discord-Rainbow-Role
-Getting a Rainbow Role with a Discord Bot **using Discord.JS**
+# Rainbowbot
 
-## Usage:
-1. Install [**Discord.JS**](https://github.com/hydrabolt/discord.js/)
-2. Get this code
-3. Change config.js
+Periodically randomizes the colour of a discord role for those people who dont like to conform to just one chat color!
 
-## Config:
-| Option        | Usage         |
-| ------------- |---------------|
-| token         | Your Discord API token |
-| servers       | List your server ids here ([how to get my server id?](https://support.discordapp.com/hc/en-us/articles/206346498-Where-can-I-find-my-server-ID-))      |
-| roleName      | The name of the role you'd like to automatically change it's color      |
-| colors        | The number of colors that'll be used      |
-| speed         | The speed on which it needs to change (in ms)      |
-| logging       | If you want to log when the color has changed in the console (can be really messy)      |
-
-### Attention!
-**If you are using a speed that's lower than 60000ms (1 minute) Your bot might get IP-banned!**
-
-For permissions, the role from the bot needs to be higher placed than the role you want to change it's color from in the server settings, like this
-
-[Admin]
-
-[BotRole]
-
-[RoleYouWantToChangeItsColorFrom]
-
-[@everyone]
+## Setup
+ 1. Download the files
+ 2. Edit`config.json` and add your discord bot token.
+ 3. Open terminal in the folder where you placed the files
+ 4. Run `npm install` to get the required dependencies.
+ 5. Start the bot by running `node bot.js`
+ 
